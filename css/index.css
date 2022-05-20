@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background: url(../img/xp_bg.jpg) top no-repeat fixed;
+    background: url(../img/xp_bg.jpg) bottom no-repeat fixed;
     user-select: none;
     overflow: hidden;
 }
@@ -112,8 +112,8 @@ body {
 /* **************** 메인 **************** */
 #intro {
     position: absolute;
-    top: 20%;
-    left: 40%;
+    bottom: 38rem;
+    left: 45%;
 }
 
 .intro-box {
@@ -158,11 +158,11 @@ body {
 .main-icon {
     position: relative;
     display: flex;
-    top: 8rem;
+    top: 15rem;
     flex-direction: column;
     margin: 2rem 2rem 0;
     cursor: pointer;
-    filter: drop-shadow(1px 2px 1px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.3));
 }
 
 #project-icon {

@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body {
-    background: url(../img/xp_bg.jpg) bottom no-repeat fixed;
+    background: url(../img/main_bg.jpg) bottom no-repeat fixed;
     user-select: none;
     overflow: hidden;
 }
@@ -112,7 +112,7 @@ body {
 /* **************** 메인 **************** */
 #intro {
     position: absolute;
-    bottom: 38rem;
+    bottom: 33rem;
     left: 40%;
 }
 
@@ -123,7 +123,7 @@ body {
     width: 32rem;
     height: 20rem;
     padding: .5rem;
-    background: #ffbb1c;
+    background: #ffcc58;
     border-radius: 1rem;
     transform: scale(0);
     transition: all .2s ease-in-out;
@@ -138,7 +138,7 @@ body {
     left: 42%;
     border-width: 3rem 1rem 0;
     border-style: solid;
-    border-color: #ffbb1c transparent;
+    border-color: #ffcc58 transparent;
     transform: rotate(20deg);
 }
 
@@ -158,11 +158,11 @@ body {
 .main-icon {
     position: relative;
     display: flex;
-    top: 15rem;
+    top: 8rem;
     flex-direction: column;
-    margin: 2rem 2rem 0;
+    margin: 1rem 3rem;
     cursor: pointer;
-    filter: drop-shadow(0 2px 1px rgba(0, 0, 0, 0.3));
+    filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
 }
 
 #project-icon {

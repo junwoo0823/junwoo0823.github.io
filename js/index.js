@@ -18,7 +18,7 @@ let timer = setInterval(function () {
 // 로딩 화면 타이핑
 setTimeout(() => {
   let typed = new Typed('.loading-text', {
-    strings: ["안녕하세요.", "웹퍼블리셔 <strong>김준우</strong>입니다."],
+    strings: ["안녕하세요.", "웹퍼블리셔 <strong>김현우</strong>입니다."],
     typeSpeed: 80,
     backSpeed: 50,
     showCursor: false
